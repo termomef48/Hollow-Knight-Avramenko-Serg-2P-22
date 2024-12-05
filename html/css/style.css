@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222; /* Темніший фон для заголовків */
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #f4c542;
+}
+p {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+a {
+    color: #42aaff; /* Синій для кнопок */
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border: 2px solid #42aaff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #42aaff;
+    color: #000;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Встановлює кнопки в ряд */
+    justify-content: center; /* Вирівнює кнопки по центру */
+    gap: 10px; /* Відступи між кнопками */
+}
+
+nav ul li {
+    margin: 0; /* Забирає відступи */
+}
+
+a {
+    color: #42aaff; /* Синій текст кнопок */
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 20px;
+    border: 2px solid #42aaff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #42aaff;
+    color: #000;
+}
+        header h1 {
+            margin: 0;
+            color: #ffd700;
+        }
+        section {
+            text-align: left;
+            margin: 20px 0;
+        }
+        section h2 {
+            color: #ff4500;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #444;
+            margin: 20px 0;
+        }
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left; /* Вирівнювання тексту по лівому краю */
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: space-between; /* Розділяє текст і картинку */
+    align-items: center; /* Вирівнює по вертикалі */
+    padding: 20px;
+    border-top: 1px solid #333;
+}
+
+.text {
+    width: 50%; /* Текст займає ліву половину */
+    color: white;
+    font-size: 18px;
+}
+
+.image {
+    width: 50%; /* Картинка займає праву половину */
+    text-align: center; /* Центрує картинку всередині блоку */
+}
+
+.image img {
+    max-width: 100%; /* Адаптивна ширина зображення */
+    height: auto;
+}
+
+.container2 {
+    display: flex; /* Вирівнювання елементів у рядок */
+    justify-content: space-between; /* Простір між текстом і картинкою */
+    align-items: center; /* Вирівнювання по вертикалі */
+    padding: 20px;
+    border-top: 1px solid #333;
+    flex-wrap: nowrap; /* Забороняє перенесення елементів */
+}
+
+.image2 {
+    order: 1; /* Встановлює порядок картинки */
+    width: 50%; /* Картинка займає половину ширини */
+    text-align: center;
+}
+
+.image2 img {
+    max-width: 100%; /* Адаптивна картинка */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text2 {
+    order: 2; /* Встановлює порядок тексту */
+    width: 50%; /* Текст займає другу половину */
+    color: white;
+    font-size: 18px;
+    text-align: left; /* Текст вирівняний по лівому краю */
+}
+
+
+
+
